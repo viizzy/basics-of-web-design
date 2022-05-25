@@ -1,0 +1,196 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, sans-serif;
+    background-color: #fff;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+}
+
+.navbar-brand{
+    float: left;
+}
+
+.nav-items{
+    float: right;
+    text-align: right;  
+}
+
+.nav-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 20px;
+    position: relative;
+    top: 23px;
+    color: #7e7e7e;
+}
+
+.active{
+    color: springgreen !important;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    column-gap: 0px;
+    background-color: darkblue;
+}
+
+.left-area{
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 12%;
+    padding-left: 18%;
+}
+
+.right-area{
+    float: left;
+    align-items: left;
+}
+
+.content{
+    background-color: lightgreen;
+    margin-top: 1%;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.content img{
+    border-radius: 20px;
+}
+
+.con-top{
+    padding-left: 100px;
+}
+
+.con-bot{
+    padding-top: 50px;
+    padding-right: 100px;
+    background-color: lightgreen;
+}
+
+.top-img{
+    float: left;
+}
+
+.bottom-img{
+    float: right;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+}
+
+.footer-text{
+    width: 480px;
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+}
+
+.preheader{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    background-color:lightgreen;
+    color: #fff;
+}
+
+.preheader h1{
+    float: left;
+}
+
+.preheader h3{
+    float: right;
+    text-align: right;
+    position: relative;
+    top: 10px;
+    right: 18px;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    text-align: center;
+    grid-template-rows: auto auto;
+    background-color: lightgrey;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 1%;
+}
+
+.company-team{
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.team-title{
+    color: #fff;
+    font-size: 30px;
+}
+
+.card{
+    background-color: #fff;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.card h1{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.card p{
+    font-weight: bolder;
+    width: 89%;
+    position: relative;
+    left: 23px;
+    font-size: 19.5px;
+    text-align: left;
+}
+
+.contact-form{
+        display: grid;
+        grid-template-columns: 950px 400px;
+        grid-template-rows: auto auto;
+        background-color: lightgrey;
+        justify-content: center;
+        color: #fff;
+        margin-top: 1%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+}
+
+.form-text{
+    float: left;
+}
+
+.form-text p{
+    color: #000;
+}
+
+.map-text{
+    color: #000;
+    float: right;
+    padding-top: 25px;
+    font-size: 16px;
+    position: relative;
+    left: 75px;
+}
